@@ -36,7 +36,7 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
 **Results**
 - The P-value for both paid and free plan students was 0, which is below 0.05.
 - This leads us to reject the null hypothesis and conclude that the variances are not equal.
-- As a result, I proceeded with a T-Test assuming unequal variances (Welch’s T-Test).
+- As a result, I proceeded with a T-Test assuming unequal variances (Welch’s T-Test).  
 **Step 2: T-Test (Comparing Means)**
   To determine whether engagement significantly increased, I performed a one-tailed T-Test with the following hypotheses:
    - Null Hypothesis (H₀): Engagement in Q4 2021 is greater than or equal to engagement in Q4 2022 (no significant improvement).
@@ -44,3 +44,32 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
 -  Decision Criteria:
     - If T-score ≥ T-critical value, reject H₀.
     - If P-value ≤ significance level (0.05), reject H₀.
+ ## PROJECT INSIGHTS
+   **Paid Plan Students**
+   - T-score ≥ T-critical value → Reject H₀
+   - P-value ≤ 0.05 → Reject H₀
+   - Conclusion: Engagement significantly increased in Q4 2022 for paid students.
+    **Free Plan Students**
+     - T-score ≤ T-critical value → Fail to reject H₀
+     - P-value ≥ 0.05 → Fail to reject H₀
+     - Conclusion: Engagement did not significantly increase for free students.
+   ## Error Analysis: Type I and Type II Errors
+   Understanding the types of errors is crucial for assessing business risks:
+   - Type I Error (False Positive):
+       - Rejecting H₀ when it is actually true.
+       - Risk: We wrongly conclude that engagement improved when it remained the same.
+       - Cost: The company might invest in unnecessary platform improvements, wasting resources.
+   - Type II Error (False Negative):
+       - Failing to reject H₀ when it is actually false.
+       - Risk: We fail to detect an actual increase in engagement.
+       - Cost: The company may miss opportunities to enhance features that genuinely increase engagement.
+   ###  Which Error Is More Costly?
+   - Type I Error (False Positive) is more costly for the company.
+   - If we mistakenly assume engagement increased, the company may allocate budget towards unnecessary changes instead of optimizing existing features.
+   - However, if business priorities emphasize capturing every real improvement, then Type II Error (False Negative) could be riskier.
+ ## Final Takeaways
+- **Engagement increased for paid students but not for free students.**
+- **T-Test results confirmed a significant difference in paid plans but not in free plans.**
+- **Type I error (False Positive) poses a higher financial risk for the company.**
+- **Further analysis could explore what factors contributed to the differing engagement trends.**
+     
