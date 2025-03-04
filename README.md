@@ -40,8 +40,8 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
 #### Step 2: T-Test (Comparing Means)
   To determine whether engagement significantly increased, I performed a one-tailed T-Test with the following hypotheses:
    - Null Hypothesis (H₀): Engagement in Q4 2021 is greater than or equal to engagement in Q4 2022 (no significant improvement).
--  Alternate Hypothesis (H₁): Engagement in Q4 2021 is less than in Q4 2022 (significant improvement).
- #### Decision Criteria:
+   -  Alternate Hypothesis (H₁): Engagement in Q4 2021 is less than in Q4 2022 (significant improvement).
+#### decision Criteria:
     - If T-score ≥ T-critical value, reject H₀.
     - If P-value ≤ significance level (0.05), reject H₀.
  ## PROJECT INSIGHTS
