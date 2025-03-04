@@ -30,10 +30,10 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
 **F-Test Hypotheses:**
 - Null Hypothesis (H₀): The variances of Q4 2021 and Q4 2022 are equal.
 - Alternate Hypothesis (H₁): The variances of Q4 2021 and Q4 2022 are not equal.
-**Decision Criteria:**
+#### Decision Criteria:
   - If P-value ≤ significance level (α = 0.05), reject the null hypothesis.
   - If P-value ≥ significance level, fail to reject the null hypothesis.  
-**Results**
+##### Results
 - The P-value for both paid and free plan students was 0, which is below 0.05.
 - This leads us to reject the null hypothesis and conclude that the variances are not equal.
 - As a result, I proceeded with a T-Test assuming unequal variances (Welch’s T-Test).  
