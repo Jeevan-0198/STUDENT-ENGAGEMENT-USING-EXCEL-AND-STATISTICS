@@ -7,3 +7,6 @@ It includes fields such as student_id, paid status, minutes_watched_21, and minu
 ## PROJECT EXPLANATION
 To determine whether student engagement increased between Q4 2021 and Q4 2022, I performed hypothesis testing using statistical methods in Excel. Specifically, I compared the means of engagement separately for free and paid students during these periods. To improve accuracy and minimize errors, I also calculated the median and standard deviation.  
 ### Descriptive Statistics and Data Distribution
+Before proceeding with hypothesis testing, I analyzed the dataset’s distribution by calculating skewness and kurtosis:
+- **Skewness** helps determine the asymmetry of the distribution.
+- **Kurtosis** measures the tailedness of the distribution, indicating the presence of extreme values.
