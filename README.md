@@ -20,11 +20,15 @@ tendency measure than the mean.
 - The mean increased, but the median decreased.
 - Skewness increased significantly towards the right, suggesting extreme values heavily influence the mean.
 - This combination (rising skewness but decreasing median) weakens our alternate hypothesis that engagement improved for free plan students.
+  ![image](https://github.com/user-attachments/assets/cd70aefa-e712-455d-b186-3cc8cece97fb)
+
 ### Confidence Interval Analysis
 To further validate our hypothesis testing, I calculated **confidence intervals** for the means:
 - A confidence interval represents a range within which the true population mean is likely to fall.
 - For example, the 95% confidence interval for Q4 2021 (paid students) was between 318.86 and 499.43, with a mean of 332.5.
 - If the confidence interval for Q4 2022 does not overlap significantly with Q4 2021, it supports the claim that engagement increased.
+  ![image](https://github.com/user-attachments/assets/a5d3cd95-ff54-417d-b4a7-cd16cdb3ad6c)
+
 ### Hypothesis Testing
 #### Step 1: F-Test (Checking Variance Equality)
 **F-Test Hypotheses:**
@@ -36,7 +40,9 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
 ##### Results
 - The P-value for both paid and free plan students was 0, which is below 0.05.
 - This leads us to reject the null hypothesis and conclude that the variances are not equal.
-- As a result, I proceeded with a T-Test assuming unequal variances (Welch’s T-Test).  
+- As a result, I proceeded with a T-Test assuming unequal variances (Welch’s T-Test).
+![image](https://github.com/user-attachments/assets/f66ad8ad-da2a-4066-bba8-67d99489d558)
+  
 #### Step 2: T-Test (Comparing Means)
   To determine whether engagement significantly increased, I performed a one-tailed T-Test with the following hypotheses:
    - Null Hypothesis (H₀): Engagement in Q4 2021 is greater than or equal to engagement in Q4 2022 (no significant improvement).
@@ -53,6 +59,8 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
      - T-score ≤ T-critical value → Fail to reject H₀
      - P-value ≥ 0.05 → Fail to reject H₀
      - Conclusion: Engagement did not significantly increase for free students.
+     ![image](https://github.com/user-attachments/assets/523565e3-d021-43f8-acb2-42815283396f)
+
    ## ERROR ANALYSIS: Type I and Type II Errors
    Understanding the types of errors is crucial for assessing business risks:
    - Type I Error (False Positive):
