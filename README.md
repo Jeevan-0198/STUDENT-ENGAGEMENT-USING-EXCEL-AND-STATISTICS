@@ -53,7 +53,7 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
      - T-score ≤ T-critical value → Fail to reject H₀
      - P-value ≥ 0.05 → Fail to reject H₀
      - Conclusion: Engagement did not significantly increase for free students.
-   ## Error Analysis: Type I and Type II Errors
+   ## ERROR ANALYSIS: Type I and Type II Errors
    Understanding the types of errors is crucial for assessing business risks:
    - Type I Error (False Positive):
        - Rejecting H₀ when it is actually true.
@@ -67,7 +67,7 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
    - Type I Error (False Positive) is more costly for the company.
    - If we mistakenly assume engagement increased, the company may allocate budget towards unnecessary changes instead of optimizing existing features.
    - However, if business priorities emphasize capturing every real improvement, then Type II Error (False Negative) could be riskier.
- ## Final Takeaways
+ ##  CONCLUSION
 - **Engagement increased for paid students but not for free students.**
 - **T-Test results confirmed a significant difference in paid plans but not in free plans.**
 - **Type I error (False Positive) poses a higher financial risk for the company.**
