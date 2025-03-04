@@ -16,7 +16,7 @@ Before proceeding with hypothesis testing, I analyzed the dataset’s distributi
 - Skewness was positive and increased significantly, indicating a right-skewed distribution. When skewness is high, the median often provides a more reliable central 
 tendency measure than the mean.
 - Kurtosis was greater than 3 (approximately 58), classifying the distribution as leptokurtic, meaning there is a higher likelihood of extreme values.
-For **free plan** students:
+#### For **free plan** students:
 - The mean increased, but the median decreased.
 - Skewness increased significantly towards the right, suggesting extreme values heavily influence the mean.
 - This combination (rising skewness but decreasing median) weakens our alternate hypothesis that engagement improved for free plan students.
