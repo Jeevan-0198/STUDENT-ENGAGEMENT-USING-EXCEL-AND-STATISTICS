@@ -32,12 +32,12 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
 - Alternate Hypothesis (H₁): The variances of Q4 2021 and Q4 2022 are not equal.
 **Decision Criteria:**
   - If P-value ≤ significance level (α = 0.05), reject the null hypothesis.
-  - If P-value ≥ significance level, fail to reject the null hypothesis.
+  - If P-value ≥ significance level, fail to reject the null hypothesis.  
 **Results**
 - The P-value for both paid and free plan students was 0, which is below 0.05.
 - This leads us to reject the null hypothesis and conclude that the variances are not equal.
 - As a result, I proceeded with a T-Test assuming unequal variances (Welch’s T-Test).  
-**Step 2: T-Test (Comparing Means)**
+#### Step 2: T-Test (Comparing Means)
   To determine whether engagement significantly increased, I performed a one-tailed T-Test with the following hypotheses:
    - Null Hypothesis (H₀): Engagement in Q4 2021 is greater than or equal to engagement in Q4 2022 (no significant improvement).
 -  Alternate Hypothesis (H₁): Engagement in Q4 2021 is less than in Q4 2022 (significant improvement).
