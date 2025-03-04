@@ -42,8 +42,8 @@ To further validate our hypothesis testing, I calculated **confidence intervals*
    - Null Hypothesis (H₀): Engagement in Q4 2021 is greater than or equal to engagement in Q4 2022 (no significant improvement).
    -  Alternate Hypothesis (H₁): Engagement in Q4 2021 is less than in Q4 2022 (significant improvement).
 #### Decision Criteria:
-    - If T-score ≥ T-critical value, reject H₀.
-    - If P-value ≤ significance level (0.05), reject H₀.
+   - If T-score ≥ T-critical value, reject H₀.
+   - If P-value ≤ significance level (0.05), reject H₀.
  ## PROJECT INSIGHTS
    **Paid Plan Students**
    - T-score ≥ T-critical value → Reject H₀
