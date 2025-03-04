@@ -16,3 +16,14 @@ For **paid plan** students:
 - Skewness was positive and increased significantly, indicating a right-skewed distribution. When skewness is high, the median often provides a more reliable central 
 tendency measure than the mean.
 - Kurtosis was greater than 3 (approximately 58), classifying the distribution as leptokurtic, meaning there is a higher likelihood of extreme values.
+For **free plan** students:
+- The mean increased, but the median decreased.
+- Skewness increased significantly towards the right, suggesting extreme values heavily influence the mean.
+- This combination (rising skewness but decreasing median) weakens our alternate hypothesis that engagement improved for free plan students.
+### Confidence Interval Analysis
+To further validate our hypothesis testing, I calculated **confidence intervals** for the means:
+- A confidence interval represents a range within which the true population mean is likely to fall.
+- For example, the 95% confidence interval for Q4 2021 (paid students) was between 318.86 and 499.43, with a mean of 332.5.
+- If the confidence interval for Q4 2022 does not overlap significantly with Q4 2021, it supports the claim that engagement increased.
+### Hypothesis Testing
+#### Step 1: F-Test (Checking Variance Equality)
