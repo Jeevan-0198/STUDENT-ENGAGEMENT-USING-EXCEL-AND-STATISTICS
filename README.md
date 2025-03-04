@@ -10,3 +10,9 @@ To determine whether student engagement increased between Q4 2021 and Q4 2022, I
 Before proceeding with hypothesis testing, I analyzed the dataset’s distribution by calculating skewness and kurtosis:
 - **Skewness** helps determine the asymmetry of the distribution.
 - **Kurtosis** measures the tailedness of the distribution, indicating the presence of extreme values.
+For **paid plan** students:
+- The mean increased significantly between Q4 2021 and Q4 2022.
+- The median also increased, suggesting a consistent rise in engagement.
+- Skewness was positive and increased significantly, indicating a right-skewed distribution. When skewness is high, the median often provides a more reliable central 
+tendency measure than the mean.
+- Kurtosis was greater than 3 (approximately 58), classifying the distribution as leptokurtic, meaning there is a higher likelihood of extreme values.
