@@ -20,6 +20,7 @@ tendency measure than the mean.
 - The mean increased, but the median decreased.
 - Skewness increased significantly towards the right, suggesting extreme values heavily influence the mean.
 - This combination (rising skewness but decreasing median) weakens our alternate hypothesis that engagement improved for free plan students.
+
   ![image](https://github.com/user-attachments/assets/cd70aefa-e712-455d-b186-3cc8cece97fb)
 
 ### Confidence Interval Analysis
